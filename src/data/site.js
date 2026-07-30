@@ -1,4 +1,4 @@
-export const logoUrl = "/logo.jpg";
+export const logoUrl = "/logo-transparent.png";
 
 export const whatsappNumber = "6282211227088";
 

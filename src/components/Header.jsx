@@ -21,8 +21,8 @@ export default function Header({ currentPage, onNavigate }) {
   return (
     <header className="fixed top-0 w-full z-50 transition-all duration-300 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
       <div className="h-20 max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop flex items-center justify-between">
-        <a className="flex items-center gap-4 text-left" href={routes.beranda} onClick={(event) => handleNavigate(event, "beranda")}>
-          <img alt="SGC Logo" className="h-10 w-auto object-contain" src={logoUrl} />
+        <a className="flex h-16 min-w-16 items-center justify-center text-left" href={routes.beranda} onClick={(event) => handleNavigate(event, "beranda")}>
+          <img alt="SGC Logo" className="h-14 w-auto object-contain" src={logoUrl} />
         </a>
         <nav aria-label="Navigasi desktop" className="hidden lg:flex items-center gap-5 xl:gap-gutter absolute left-1/2 -translate-x-1/2">
           {navItems.map(([path, label]) => (
