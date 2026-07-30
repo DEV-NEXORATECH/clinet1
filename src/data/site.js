@@ -1,5 +1,4 @@
-export const logoUrl =
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuB3FW5YxMGa05gdlgfzi6vNhza6m3MPHeZPyfuEvKpA9ckoxSvhbqcnklr_3HjJPDi-11Rqg6YEbcL13KQDhMKNxcPUVA5tI3V4218CsfwGVzmqhCnORgOtum0M0BF7qMiBFQZZh1mY9mpf5SBTOkKNbegI9u7PYAl0Ojah2nYEvwBlPKlL6BhYKnqnrO5zA-6xmkxQxuP1UloBJjxsNCW1RpWKSkaoDA-X-kQZMBQqk0Kb3hCOkMM";
+export const logoUrl = "/logo.jpg";
 
 export const whatsappNumber = "6282211227088";
 

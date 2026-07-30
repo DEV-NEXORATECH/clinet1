@@ -45,7 +45,7 @@ function setCanonical(href) {
   tag.setAttribute("href", href);
 }
 
-function setStructuredData(page, canonicalUrl) {
+function setStructuredData(page, canonicalUrl, imageUrl) {
   let tag = document.getElementById("sgc-json-ld");
   if (!tag) {
     tag = document.createElement("script");
@@ -59,7 +59,7 @@ function setStructuredData(page, canonicalUrl) {
     "@type": "LocalBusiness",
     name: "PT Sentra Garuda Cakra Pratama",
     url: canonicalUrl,
-    logo: logoUrl,
+    logo: imageUrl,
     telephone: `+${whatsappNumber}`,
     areaServed: "Indonesia",
     address: {
@@ -113,6 +113,7 @@ export default function App() {
 
   useEffect(() => {
     const canonicalUrl = `${window.location.origin}${routes[page] ?? routes.beranda}`;
+    const imageUrl = new URL(logoUrl, window.location.origin).href;
 
     document.title = currentSeo.title;
     setMeta("description", currentSeo.description);
@@ -122,13 +123,13 @@ export default function App() {
     setMeta("og:description", currentSeo.description, "property");
     setMeta("og:type", page === "blog" ? "article" : "website", "property");
     setMeta("og:url", canonicalUrl, "property");
-    setMeta("og:image", logoUrl, "property");
+    setMeta("og:image", imageUrl, "property");
     setMeta("twitter:card", "summary_large_image");
     setMeta("twitter:title", currentSeo.title);
     setMeta("twitter:description", currentSeo.description);
-    setMeta("twitter:image", logoUrl);
+    setMeta("twitter:image", imageUrl);
     setCanonical(canonicalUrl);
-    setStructuredData(page, canonicalUrl);
+    setStructuredData(page, canonicalUrl, imageUrl);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [currentSeo, page]);
 
