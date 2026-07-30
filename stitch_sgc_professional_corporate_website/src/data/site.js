@@ -14,6 +14,56 @@ export const navItems = [
   ["kontak", "Kontak"]
 ];
 
+export const routes = {
+  beranda: "/",
+  "tentang-kami": "/tentang-kami",
+  layanan: "/layanan",
+  blog: "/blog",
+  rekrutmen: "/rekrutmen",
+  kontak: "/kontak"
+};
+
+export const pageByPath = Object.fromEntries(Object.entries(routes).map(([page, path]) => [path, page]));
+
+export const seoPages = {
+  beranda: {
+    title: "Jasa Security, Cleaning Service & Office Support | PT SGC",
+    description:
+      "PT Sentra Garuda Cakra Pratama menyediakan jasa security, cleaning service, office support, dan facility management profesional untuk kebutuhan bisnis.",
+    keywords: "jasa security, jasa satpam, cleaning service, office support, facility management, Sentra Garuda Cakra"
+  },
+  "tentang-kami": {
+    title: "Tentang PT Sentra Garuda Cakra Pratama",
+    description:
+      "Profil PT Sentra Garuda Cakra Pratama sebagai mitra keamanan dan facility support dengan standar operasional profesional.",
+    keywords: "profil perusahaan security, Sentra Garuda Cakra, perusahaan jasa keamanan"
+  },
+  layanan: {
+    title: "Layanan Jasa Security, Cleaning Service & Office Support",
+    description:
+      "Layanan jasa pengamanan, cleaning service, office boy, dan building support terintegrasi untuk perusahaan dan gedung komersial.",
+    keywords: "jasa pengamanan, security gedung, cleaning service kantor, office boy, building support"
+  },
+  blog: {
+    title: "Blog Security dan Facility Management | PT SGC",
+    description:
+      "Artikel SEO tentang jasa security, vendor satpam, cleaning service profesional, monitoring keamanan, dan facility management.",
+    keywords: "blog security, vendor satpam, tips keamanan gedung, cleaning service profesional, facility management"
+  },
+  rekrutmen: {
+    title: "Rekrutmen Security, Cleaning Service & Office Support",
+    description:
+      "Informasi karier dan pendaftaran kerja security, cleaning service, office boy, supervisor, dan staff di PT Sentra Garuda Cakra Pratama.",
+    keywords: "lowongan security, lowongan satpam, lowongan cleaning service, rekrutmen office boy"
+  },
+  kontak: {
+    title: "Kontak PT Sentra Garuda Cakra Pratama",
+    description:
+      "Hubungi PT Sentra Garuda Cakra Pratama untuk konsultasi kebutuhan keamanan, cleaning service, dan facility support perusahaan.",
+    keywords: "kontak jasa security, konsultasi security, vendor security Bandung, jasa satpam Bandung"
+  }
+};
+
 export const blogPosts = [
   {
     title: "Checklist Memilih Vendor Security untuk Gedung Perkantoran",

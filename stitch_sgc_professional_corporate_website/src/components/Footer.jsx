@@ -1,4 +1,4 @@
-import { logoUrl, navItems, whatsappUrl } from "../data/site.js";
+import { logoUrl, navItems, routes, whatsappUrl } from "../data/site.js";
 
 export default function Footer({ onNavigate }) {
   return (
@@ -18,9 +18,16 @@ export default function Footer({ onNavigate }) {
             {navItems.map(([path, label]) => (
               <li className="flex items-center gap-2" key={path}>
                 <span className="material-symbols-outlined text-[16px] text-secondary">fiber_manual_record</span>
-                <button className="font-body-md text-body-md hover:text-secondary transition-colors" type="button" onClick={() => onNavigate(path)}>
+                <a
+                  className="font-body-md text-body-md hover:text-secondary transition-colors"
+                  href={routes[path]}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    onNavigate(path);
+                  }}
+                >
                   {label}
-                </button>
+                </a>
               </li>
             ))}
           </ul>

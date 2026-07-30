@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { logoUrl, navItems } from "../data/site.js";
+import { logoUrl, navItems, routes } from "../data/site.js";
 
 export default function Header({ currentPage, onNavigate }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,23 +13,28 @@ export default function Header({ currentPage, onNavigate }) {
     setIsMenuOpen(false);
   };
 
+  const handleNavigate = (event, path) => {
+    event.preventDefault();
+    navigate(path);
+  };
+
   return (
     <header className="fixed top-0 w-full z-50 transition-all duration-300 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
       <div className="h-20 max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop flex items-center justify-between">
-        <button className="flex items-center gap-4 text-left" type="button" onClick={() => navigate("beranda")}>
+        <a className="flex items-center gap-4 text-left" href={routes.beranda} onClick={(event) => handleNavigate(event, "beranda")}>
           <img alt="SGC Logo" className="h-10 w-auto object-contain" src={logoUrl} />
-        </button>
+        </a>
         <nav aria-label="Navigasi desktop" className="hidden lg:flex items-center gap-5 xl:gap-gutter absolute left-1/2 -translate-x-1/2">
           {navItems.map(([path, label]) => (
-            <button
+            <a
               aria-current={currentPage === path ? "page" : undefined}
               className={currentPage === path ? "transition-colors text-secondary font-bold" : "font-label-md text-label-md text-on-surface-variant hover:text-secondary transition-colors"}
+              href={routes[path]}
               key={path}
-              type="button"
-              onClick={() => navigate(path)}
+              onClick={(event) => handleNavigate(event, path)}
             >
               {label}
-            </button>
+            </a>
           ))}
         </nav>
         <div className="flex items-center gap-4">
@@ -52,17 +57,17 @@ export default function Header({ currentPage, onNavigate }) {
         <div className="lg:hidden border-t border-outline-variant bg-surface-container-lowest shadow-2xl">
           <nav aria-label="Navigasi mobile" className="max-w-container-max mx-auto px-margin-mobile py-4 flex flex-col gap-2">
             {navItems.map(([path, label]) => (
-              <button
+              <a
                 aria-current={currentPage === path ? "page" : undefined}
                 className={`w-full rounded-lg px-4 py-3 text-left font-label-md text-label-md transition-colors ${
                   currentPage === path ? "bg-secondary text-on-secondary" : "text-on-surface hover:bg-surface-container"
                 }`}
+                href={routes[path]}
                 key={path}
-                type="button"
-                onClick={() => navigate(path)}
+                onClick={(event) => handleNavigate(event, path)}
               >
                 {label}
-              </button>
+              </a>
             ))}
             <button className="mt-2 w-full bg-primary text-on-primary px-4 py-3 rounded-lg font-label-md text-label-md hover:bg-secondary transition-all shadow-lg" type="button" onClick={() => navigate("kontak")}>
               Konsultasi Sekarang

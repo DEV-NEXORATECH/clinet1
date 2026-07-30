@@ -6,24 +6,7 @@ import ServicesPage from "./pages/ServicesPage.jsx";
 import CareersPage from "./pages/CareersPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
-
-const pageTitles = {
-  beranda: "Beranda",
-  "tentang-kami": "Tentang Kami",
-  layanan: "Layanan",
-  blog: "Blog",
-  rekrutmen: "Rekrutmen",
-  kontak: "Kontak"
-};
-
-const pageDescriptions = {
-  beranda: "PT Sentra Garuda Cakra Pratama menyediakan jasa security, cleaning service, dan office support profesional untuk kebutuhan bisnis.",
-  "tentang-kami": "Profil PT Sentra Garuda Cakra Pratama sebagai mitra keamanan dan facility support dengan standar operasional profesional.",
-  layanan: "Layanan jasa pengamanan, cleaning service, office boy, dan building support terintegrasi untuk perusahaan dan gedung komersial.",
-  blog: "Artikel SEO tentang jasa security, vendor satpam, cleaning service profesional, monitoring keamanan, dan facility management.",
-  rekrutmen: "Informasi karier dan pendaftaran kerja security, cleaning service, office boy, supervisor, dan staff di PT Sentra Garuda Cakra Pratama.",
-  kontak: "Hubungi PT Sentra Garuda Cakra Pratama untuk konsultasi kebutuhan keamanan, cleaning service, dan facility support perusahaan."
-};
+import { blogPosts, logoUrl, pageByPath, routes, seoPages, whatsappNumber } from "./data/site.js";
 
 function Page({ page, onNavigate }) {
   const pages = {
@@ -38,23 +21,120 @@ function Page({ page, onNavigate }) {
   return pages[page] ?? pages.beranda;
 }
 
-export default function App() {
-  const [page, setPage] = useState("beranda");
+function getInitialPage() {
+  return pageByPath[window.location.pathname] ?? "beranda";
+}
 
-  const currentTitle = useMemo(() => pageTitles[page] ?? pageTitles.beranda, [page]);
+function setMeta(name, content, attr = "name") {
+  let tag = document.head.querySelector(`meta[${attr}="${name}"]`);
+  if (!tag) {
+    tag = document.createElement("meta");
+    tag.setAttribute(attr, name);
+    document.head.appendChild(tag);
+  }
+  tag.setAttribute("content", content);
+}
+
+function setCanonical(href) {
+  let tag = document.head.querySelector('link[rel="canonical"]');
+  if (!tag) {
+    tag = document.createElement("link");
+    tag.setAttribute("rel", "canonical");
+    document.head.appendChild(tag);
+  }
+  tag.setAttribute("href", href);
+}
+
+function setStructuredData(page, canonicalUrl) {
+  let tag = document.getElementById("sgc-json-ld");
+  if (!tag) {
+    tag = document.createElement("script");
+    tag.id = "sgc-json-ld";
+    tag.type = "application/ld+json";
+    document.head.appendChild(tag);
+  }
+
+  const organization = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    name: "PT Sentra Garuda Cakra Pratama",
+    url: canonicalUrl,
+    logo: logoUrl,
+    telephone: `+${whatsappNumber}`,
+    areaServed: "Indonesia",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Jl. Raya Bandung No. 123",
+      addressLocality: "Bandung",
+      addressRegion: "Jawa Barat",
+      addressCountry: "ID"
+    },
+    makesOffer: [
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Jasa Pengamanan" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Cleaning Service" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Office Support" } }
+    ]
+  };
+
+  const graph = [organization];
+  if (page === "blog") {
+    graph.push({
+      "@type": "Blog",
+      name: "Blog Security dan Facility Management PT SGC",
+      url: canonicalUrl,
+      blogPost: blogPosts.map((post) => ({
+        "@type": "BlogPosting",
+        headline: post.title,
+        description: post.excerpt,
+        keywords: post.keywords.join(", ")
+      }))
+    });
+  }
+
+  tag.textContent = JSON.stringify({ "@context": "https://schema.org", "@graph": graph });
+}
+
+export default function App() {
+  const [page, setPage] = useState(getInitialPage);
+
+  const currentSeo = useMemo(() => seoPages[page] ?? seoPages.beranda, [page]);
+
+  const navigate = (nextPage) => {
+    const nextPath = routes[nextPage] ?? routes.beranda;
+    if (window.location.pathname !== nextPath) window.history.pushState({ page: nextPage }, "", nextPath);
+    setPage(nextPage);
+  };
 
   useEffect(() => {
-    document.title = `SGC - ${currentTitle}`;
-    document.querySelector("meta[name='description']")?.setAttribute("content", pageDescriptions[page] ?? pageDescriptions.beranda);
-    document
-      .querySelector("meta[name='keywords']")
-      ?.setAttribute("content", "jasa security, jasa satpam, cleaning service, office support, facility management, Sentra Garuda Cakra");
+    const handlePopState = () => setPage(getInitialPage());
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, []);
+
+  useEffect(() => {
+    const canonicalUrl = `${window.location.origin}${routes[page] ?? routes.beranda}`;
+
+    document.title = currentSeo.title;
+    setMeta("description", currentSeo.description);
+    setMeta("keywords", currentSeo.keywords);
+    setMeta("robots", "index, follow");
+    setMeta("og:title", currentSeo.title, "property");
+    setMeta("og:description", currentSeo.description, "property");
+    setMeta("og:type", page === "blog" ? "article" : "website", "property");
+    setMeta("og:url", canonicalUrl, "property");
+    setMeta("og:image", logoUrl, "property");
+    setMeta("twitter:card", "summary_large_image");
+    setMeta("twitter:title", currentSeo.title);
+    setMeta("twitter:description", currentSeo.description);
+    setMeta("twitter:image", logoUrl);
+    setCanonical(canonicalUrl);
+    setStructuredData(page, canonicalUrl);
     window.scrollTo({ top: 0, behavior: "smooth" });
-  }, [currentTitle, page]);
+  }, [currentSeo, page]);
 
   return (
-    <Layout currentPage={page} onNavigate={setPage}>
-      <Page page={page} onNavigate={setPage} />
+    <Layout currentPage={page} onNavigate={navigate}>
+      <Page page={page} onNavigate={navigate} />
     </Layout>
   );
 }
