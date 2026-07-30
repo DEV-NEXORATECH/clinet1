@@ -1,0 +1,1 @@
+html,body{margin:0;padding:0}body{color:#1b1c19;overscroll-behavior:none;background:#fbf9f4;font-family:"Source Sans 3",sans-serif}button,a,input,select,textarea{font:inherit}button,a{cursor:pointer}::-webkit-scrollbar{display:none}@keyframes fadeInUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}

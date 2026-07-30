@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fbf9f4;
+  color: #1b1c19;
+  font-family: "Source Sans 3", sans-serif;
+  overscroll-behavior: none;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
