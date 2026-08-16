@@ -50,7 +50,7 @@ export default function ServicesPage({ onNavigate }) {
     <div className="w-full lg:w-1/2 relative group">
     <div className="absolute -top-6 -left-6 w-32 h-32 bg-secondary/10 -z-10 rounded-full blur-2xl group-hover:bg-secondary/20 transition-all duration-700"></div>
     <div className="overflow-hidden rounded-2xl shadow-xl">
-    <img alt="Security Professional" className="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-1000" src="/images/IMG-20260704-WA0587.jpg"/>
+    <img alt="Security Professional" className="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-1000" src="/images/IMG-20260704-WA0592.jpg"/>
     </div>
     <div className="absolute -bottom-8 -right-8 bg-primary text-on-primary p-8 hidden lg:block max-w-[240px]">
     <span className="font-headline-xl text-headline-xl block mb-2">01</span>
@@ -160,7 +160,7 @@ export default function ServicesPage({ onNavigate }) {
     <div className="w-full lg:w-1/2 relative">
     <div className="aspect-square bg-surface rounded-full absolute -z-10 w-[120%] -right-1/4 -top-1/4 opacity-50 blur-3xl"></div>
     <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-    <img alt="Cleaning Staff at Work" className="w-full h-full object-cover" src="/images/IMG-20260704-WA0588.jpg"/>
+    <img alt="Cleaning Staff at Work" className="w-full h-full object-cover" src="/images/IMG-20260704-WA0580.jpg"/>
     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-12">
     <div className="flex items-center gap-4 text-white">
     <span className="font-display-lg text-[64px] font-bold text-secondary">99%</span>
@@ -180,7 +180,7 @@ export default function ServicesPage({ onNavigate }) {
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
     <div className="lg:col-span-5 order-2 lg:order-1">
     <div className="relative">
-    <img alt="Office Boy Service" className="w-full rounded-[40px] shadow-2xl relative z-10" src="/images/IMG-20260704-WA0589.jpg"/>
+    <img alt="Office Boy Service" className="w-full rounded-[40px] shadow-2xl relative z-10" src="/images/IMG-20260704-WA0624.jpg"/>
     <div className="absolute -bottom-10 -left-10 w-48 h-48 border-[16px] border-secondary-fixed rounded-full -z-0"></div>
     </div>
     </div>

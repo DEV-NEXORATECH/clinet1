@@ -247,7 +247,7 @@ export default function CareersPage({ onNavigate }) {
     <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop flex flex-col lg:flex-row items-center gap-20">
     <div className="lg:w-1/2 relative">
     <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl relative">
-    <img className="w-full h-full object-cover" data-alt="A professional security guard team standing in a formation in front of a modern corporate glass building during a bright morning. They are wearing sharp black uniforms with gold accents, exuding authority, discipline, and unity. The lighting is crisp and cinematic, emphasizing professionalism and institutional strength." src="/images/file_00000000c9008230987452174ad6203e.png"/>
+    <img className="w-full h-full object-cover" data-alt="A professional security guard team standing in a formation in front of a modern corporate glass building during a bright morning. They are wearing sharp black uniforms with gold accents, exuding authority, discipline, and unity. The lighting is crisp and cinematic, emphasizing professionalism and institutional strength." src="/images/IMG-20260704-WA0595.jpg"/>
     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
     <div className="absolute bottom-8 left-8 right-8">
     <p className="text-on-primary font-headline-md italic leading-tight">"Disiplin adalah fondasi utama kami dalam menjaga keamanan dan kepercayaan klien."</p>

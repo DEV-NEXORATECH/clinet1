@@ -7,7 +7,7 @@ export default function HomePage({ onNavigate }) {
     
     <section className="relative w-full h-[90vh] flex items-center -mt-20">
     <div className="absolute inset-0 z-0">
-    <img alt="Professional Indonesian security guard standing alert in front of a modern glass skyscraper entrance" className="w-full h-full object-cover" src="/images/IMG-20260704-WA0578.jpg"/>
+    <img alt="Professional Indonesian security guard standing alert in front of a modern glass skyscraper entrance" className="w-full h-full object-cover" src="/images/IMG-20260704-WA0604.jpg"/>
     <div className="absolute inset-0 bg-gradient-to-r from-tertiary/80 via-tertiary/40 to-transparent"></div>
     </div>
     <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop w-full pt-20">
@@ -92,7 +92,7 @@ export default function HomePage({ onNavigate }) {
     <div className="relative">
     <div className="absolute -top-6 -left-6 w-32 h-32 border-l-4 border-t-4 border-secondary/30"></div>
     <div className="rounded-3xl overflow-hidden shadow-2xl relative">
-    <img alt="Morning briefing of a security team in a luxury office lobby" className="w-full aspect-[4/5] object-cover" src="/images/IMG-20260704-WA0580.jpg"/>
+    <img alt="Morning briefing of a security team in a luxury office lobby" className="w-full aspect-[4/5] object-cover" src="/images/IMG-20260704-WA0601(1).jpg"/>
     <div className="absolute bottom-8 right-8 bg-tertiary p-6 rounded-2xl text-on-primary">
     <p className="font-headline-xl text-secondary">15+</p>
     <p className="text-sm opacity-70">Tahun Pengalaman Operasional</p>
@@ -143,7 +143,7 @@ export default function HomePage({ onNavigate }) {
     
     <div className="bg-surface group rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500">
     <div className="h-64 overflow-hidden relative">
-    <img alt="Security guarding services" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="/images/IMG-20260704-WA0582.jpg"/>
+    <img alt="Security guarding services" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="/images/IMG-20260704-WA0616.jpg"/>
     <div className="absolute top-4 left-4 bg-secondary text-on-secondary px-4 py-1 rounded-full text-xs font-bold">UTAMA</div>
     </div>
     <div className="p-8 space-y-6">
@@ -160,7 +160,7 @@ export default function HomePage({ onNavigate }) {
     
     <div className="bg-surface group rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500">
     <div className="h-64 overflow-hidden relative">
-    <img alt="Professional cleaning services" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="/images/IMG-20260704-WA0584.jpg"/>
+    <img alt="Professional cleaning services" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="/images/IMG-20260704-WA0600.jpg"/>
     </div>
     <div className="p-8 space-y-6">
     <h3 className="font-headline-md text-headline-md">Professional Cleaning Service</h3>
@@ -176,7 +176,7 @@ export default function HomePage({ onNavigate }) {
     
     <div className="bg-surface group rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500">
     <div className="h-64 overflow-hidden relative">
-    <img alt="Office support and general affair services" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="/images/IMG-20260704-WA0585.jpg"/>
+    <img alt="Office support and general affair services" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="/images/IMG-20260704-WA0639.jpg"/>
     </div>
     <div className="p-8 space-y-6">
     <h3 className="font-headline-md text-headline-md">Office Support & General Affair</h3>
@@ -288,16 +288,16 @@ export default function HomePage({ onNavigate }) {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div className="md:col-span-2 md:row-span-2 rounded-2xl overflow-hidden">
-                    <img src="/images/PT.%20SENTRA%20GARUDA%20CAKRA%20PRATAMA%20002.jpg" alt="Galeri 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"/>
+                    <img src="/images/IMG-20260704-WA0601.jpg" alt="Galeri 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"/>
                 </div>
                 <div className="rounded-2xl overflow-hidden aspect-square">
-                    <img src="/images/file_0000000082e881f9ad336c6c744a4b76.png" alt="Galeri 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"/>
+                    <img src="/images/IMG-20260704-WA0638.jpg" alt="Galeri 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"/>
                 </div>
                 <div className="rounded-2xl overflow-hidden aspect-square">
-                    <img src="/images/file_00000000b3d082119ea3aa0b5e47c328.png" alt="Galeri 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"/>
+                    <img src="/images/IMG-20260704-WA0578.jpg" alt="Galeri 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"/>
                 </div>
                 <div className="rounded-2xl overflow-hidden aspect-square">
-                    <img src="/images/file_00000000c8f881faa75cb3b34b7ba0c3.png" alt="Galeri 4" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"/>
+                    <img src="/images/IMG-20260704-WA0618.jpg" alt="Galeri 4" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"/>
                 </div>
                 <div className="rounded-2xl overflow-hidden aspect-square">
                     <img src="/images/file_00000000c9008230987452174ad6203e.png" alt="Galeri 5" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"/>

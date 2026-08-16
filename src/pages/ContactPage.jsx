@@ -158,9 +158,9 @@ export default function ContactPage() {
     </div>
     
     <div className="flex flex-wrap items-center gap-8 opacity-40 grayscale hover:grayscale-0 transition-all">
-    <img className="h-12 w-auto object-contain" data-alt="ISO 9001:2015 Quality Management System Certification Logo in minimalist black and white" src="/images/IMG-20260704-WA0573.jpg"/>
-    <img className="h-12 w-auto object-contain" data-alt="ISO 45001:2018 Occupational Health and Safety Certification Logo in minimalist black and white" src="/images/IMG-20260704-WA0574.jpg"/>
-    <img className="h-12 w-auto object-contain" data-alt="Official Indonesian Police (POLRI) security service permit badge in professional monochrome" src="/images/IMG-20260704-WA0575.jpg"/>
+    <img className="h-12 w-auto object-contain" data-alt="ISO 9001:2015 Quality Management System Certification Logo in minimalist black and white" src="/images/PT. SENTRA GARUDA CAKRA PRATAMA 001 (1).jpg"/>
+    <img className="h-12 w-auto object-contain" data-alt="ISO 45001:2018 Occupational Health and Safety Certification Logo in minimalist black and white" src="/images/IMG-20260704-WA0622.jpg"/>
+    <img className="h-12 w-auto object-contain" data-alt="Official Indonesian Police (POLRI) security service permit badge in professional monochrome" src="/images/IMG-20260704-WA0594.jpg"/>
     </div>
     </div>
     </div>

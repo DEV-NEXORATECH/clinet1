@@ -4,7 +4,7 @@ export default function AboutPage({ onNavigate }) {
     
     <section className="relative w-full h-[70vh] flex items-end overflow-hidden">
     <div className="absolute inset-0 z-0">
-    <img alt="SGC Personnel Briefing" className="w-full h-full object-cover" src="/images/file_0000000082e881f9ad336c6c744a4b76.png"/>
+    <img alt="SGC Personnel Briefing" className="w-full h-full object-cover" src="/images/IMG-20260704-WA0597.jpg"/>
     <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent"></div>
     </div>
     <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop pb-20 w-full">
@@ -52,7 +52,7 @@ export default function AboutPage({ onNavigate }) {
     <p className="font-body-lg text-body-lg text-on-surface-variant">Kami berambisi untuk mendefinisikan ulang keamanan melalui integrasi teknologi canggih dan sumber daya manusia yang memiliki kompetensi di atas rata-rata industri.</p>
     </div>
     <div className="relative group overflow-hidden rounded-2xl h-80 shadow-2xl">
-    <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close up of a professional security control room with multiple monitors showing surveillance footage, high-tech command center environment with deep blue and black tones, soft glowing lights." src="/images/file_00000000b3d082119ea3aa0b5e47c328.png"/>
+    <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close up of a professional security control room with multiple monitors showing surveillance footage, high-tech command center environment with deep blue and black tones, soft glowing lights." src="/images/IMG-20260704-WA0599.jpg"/>
     <div className="absolute inset-0 bg-primary/20"></div>
     </div>
     </div>
@@ -158,7 +158,7 @@ export default function AboutPage({ onNavigate }) {
     </div>
     </div>
     <div className="relative">
-    <img className="w-full aspect-square object-cover rounded-3xl shadow-2xl" data-alt="A sharp, professionally dressed security officer in a modern tactical uniform standing confidently in front of a sleek corporate building glass facade, holding a digital tablet, daytime clear lighting, cinematic composition." src="/images/file_00000000c8f881faa75cb3b34b7ba0c3.png"/>
+    <img className="w-full aspect-square object-cover rounded-3xl shadow-2xl" data-alt="A sharp, professionally dressed security officer in a modern tactical uniform standing confidently in front of a sleek corporate building glass facade, holding a digital tablet, daytime clear lighting, cinematic composition." src="/images/IMG-20260704-WA0591.jpg"/>
     <div className="absolute -bottom-10 -left-10 bg-secondary p-8 rounded-2xl hidden lg:block">
     <p className="font-display-lg text-on-secondary">100%</p>
     <p className="font-label-md text-on-secondary opacity-80 uppercase tracking-widest">Customer Satisfaction</p>
@@ -224,21 +224,21 @@ export default function AboutPage({ onNavigate }) {
       <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="text-center group">
           <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-surface shadow-xl">
-            <img src="/images/IMG-20260704-WA0596.jpg" alt="Direktur Utama" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+            <img src="/images/IMG-20260704-WA0617.jpg" alt="Direktur Utama" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
           </div>
           <h4 className="font-headline-md text-headline-md text-primary">Nama Direktur Utama</h4>
           <p className="font-label-md text-label-md text-secondary mt-1 uppercase tracking-wider">Direktur Utama</p>
         </div>
         <div className="text-center group">
           <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-surface shadow-xl">
-            <img src="/images/IMG-20260704-WA0597.jpg" alt="Direktur Operasional" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+            <img src="/images/IMG-20260704-WA0585.jpg" alt="Direktur Operasional" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
           </div>
           <h4 className="font-headline-md text-headline-md text-primary">Nama Direktur Operasional</h4>
           <p className="font-label-md text-label-md text-secondary mt-1 uppercase tracking-wider">Direktur Operasional</p>
         </div>
         <div className="text-center group">
           <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-surface shadow-xl">
-            <img src="/images/IMG-20260704-WA0601.jpg" alt="Manajer Pelatihan" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+            <img src="/images/IMG-20260704-WA0642.jpg" alt="Manajer Pelatihan" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
           </div>
           <h4 className="font-headline-md text-headline-md text-primary">Nama Manajer Pelatihan</h4>
           <p className="font-label-md text-label-md text-secondary mt-1 uppercase tracking-wider">Manajer Pelatihan & SDM</p>
