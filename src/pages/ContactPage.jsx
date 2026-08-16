@@ -31,7 +31,7 @@ export default function ContactPage() {
               Kemitraan Strategis Dimulai Dengan <span className="text-secondary italic">Dialog.</span>
     </h1>
     <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-              Konsultasikan kebutuhan keamanan dan manajemen fasilitas Anda dengan tim ahli PT Sentra Garuda Cakra. Kami siap merancang solusi yang presisi untuk aset berharga Anda.
+              Konsultasikan kebutuhan keamanan dan manajemen fasilitas Anda dengan tim ahli PT Sentra Garuda Cakra Pratama (SGC). Kami siap merancang solusi yang presisi untuk aset berharga Anda.
             </p>
     </div>
     <div className="hidden lg:block">
@@ -158,9 +158,9 @@ export default function ContactPage() {
     </div>
     
     <div className="flex flex-wrap items-center gap-8 opacity-40 grayscale hover:grayscale-0 transition-all">
-    <img className="h-12 w-auto object-contain" data-alt="ISO 9001:2015 Quality Management System Certification Logo in minimalist black and white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgDKV1O3640niZr7g02NjSna5Q5Z9GmxDh5-V65DUo1zmLE6NuMQPrMTXLTLyaIHKHUX3ko7TzMXDp5OpMLXLRv3lcdVYW0-zR0B_aeBDll0jvihQUss-w9KUkITQdQO_cJcDQ63Ui-ydmZ9OeamEQsoXpD2FYIUAxrPsw3nT8Q7ib8IE4ePDmMWkWyibMXiRK-x9SdrMg68WtGidhmhHAetlwT0qxHdkfOwtnPx_yaVD8DXB3BWU"/>
-    <img className="h-12 w-auto object-contain" data-alt="ISO 45001:2018 Occupational Health and Safety Certification Logo in minimalist black and white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoH4Dr-lNzKxdkaNv43Uq-P1Tge9-eZbV2qkOYoP84Zr0y8UEtnSbhEHN78iSIHW20dasXx9OCW1xe6OS3W3Fd8kU6pM4J6ZABx2ODta79OoqEu21jLlm3m9szOezGSq5mZryCYK4swZA3NiqlavlFjYfYenJ9Yhs_tGTyENqqanOkiz05-dpbQEdlMdrWbXh1UyG391vF4OO0mZNVH0DVrdtemqcnUIkASKkBIfxRyEHEpYh870w"/>
-    <img className="h-12 w-auto object-contain" data-alt="Official Indonesian Police (POLRI) security service permit badge in professional monochrome" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBND4I4NQwai8OJwRKPBGOybz_UdsXGsQfLEru5UYDPecXEDboK4QzXhZaMge7L3i2Oipv7DbIZ4R-9vNoCXDhBj0XuJhWF0V8QZpXsY3ei16u3UM-Awq_vne2tDfNrqnxwiMAME7FXykBMg5uXi-r7Xs0QMCr9JpuADcAR5tuePNLugYY8WCIXiSZAYYkMz4YuL9QqBARRDUzo2baUli-2cZ7TttTk5wjVVF2Pc66NG5VRodVGp2I"/>
+    <img className="h-12 w-auto object-contain" data-alt="ISO 9001:2015 Quality Management System Certification Logo in minimalist black and white" src="/images/IMG-20260704-WA0573.jpg"/>
+    <img className="h-12 w-auto object-contain" data-alt="ISO 45001:2018 Occupational Health and Safety Certification Logo in minimalist black and white" src="/images/IMG-20260704-WA0574.jpg"/>
+    <img className="h-12 w-auto object-contain" data-alt="Official Indonesian Police (POLRI) security service permit badge in professional monochrome" src="/images/IMG-20260704-WA0575.jpg"/>
     </div>
     </div>
     </div>

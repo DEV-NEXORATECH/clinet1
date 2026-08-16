@@ -222,7 +222,7 @@ export default function CareersPage({ onNavigate }) {
     </div>
     </div>
     <button className="w-full bg-primary text-on-primary py-6 rounded-xl font-headline-md text-headline-md hover:bg-secondary transition-all shadow-xl flex items-center justify-center gap-3" type="submit">
-                            Kirim Lamaran Pekerjaan
+                            Kirim Lamaran & Bergabung dengan Tim Elite SGC Pekerjaan
                             <span className="material-symbols-outlined">send</span>
     </button>
     </form> : null}
@@ -233,7 +233,7 @@ export default function CareersPage({ onNavigate }) {
     </div>
     <h3 className="font-display-lg text-headline-xl text-primary mb-4">Lamaran Terkirim!</h3>
     <p className="font-body-lg text-body-lg text-on-surface-variant max-w-md mx-auto mb-10">
-                            Terima kasih telah mendaftar di PT Sentra Garuda Cakra. Tim rekrutmen kami akan meninjau berkas Anda dan menghubungi dalam 7 hari kerja jika lolos seleksi awal.
+                            Terima kasih telah mendaftar di PT Sentra Garuda Cakra Pratama (SGC). Tim rekrutmen kami akan meninjau berkas Anda dan menghubungi dalam 7 hari kerja jika lolos seleksi awal.
                         </p>
     <button className="px-10 py-4 border-2 border-secondary text-secondary font-label-md rounded-xl hover:bg-secondary hover:text-on-secondary transition-all" type="button" onClick={resetForm}>
                             Kembali ke Form
@@ -247,7 +247,7 @@ export default function CareersPage({ onNavigate }) {
     <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop flex flex-col lg:flex-row items-center gap-20">
     <div className="lg:w-1/2 relative">
     <div className="w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl relative">
-    <img className="w-full h-full object-cover" data-alt="A professional security guard team standing in a formation in front of a modern corporate glass building during a bright morning. They are wearing sharp black uniforms with gold accents, exuding authority, discipline, and unity. The lighting is crisp and cinematic, emphasizing professionalism and institutional strength." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8K4K9XZn2bQxS6Yc4VrrlAQcv_1pfyQ9Kk02hq9lmQVc3TwglLbCid_THq_81WD_b8SgrO1Wu0XEMGfV7dnDdC5oNwxCyLUfdIlWOqVBc3EwD1HNzYB95c3lzrMlnlNKaBAYCY9dYMqYiBjnglaEXLtfxSFhyUOR8AFOQSVjVxHAIUTvdYl4lmvpHfeKvpBMHcpOfH5eyhhgZuK0iOqzPqI1e7AVONAqDb75VcXmi98KmtKVirtI"/>
+    <img className="w-full h-full object-cover" data-alt="A professional security guard team standing in a formation in front of a modern corporate glass building during a bright morning. They are wearing sharp black uniforms with gold accents, exuding authority, discipline, and unity. The lighting is crisp and cinematic, emphasizing professionalism and institutional strength." src="/images/file_00000000c9008230987452174ad6203e.png"/>
     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
     <div className="absolute bottom-8 left-8 right-8">
     <p className="text-on-primary font-headline-md italic leading-tight">"Disiplin adalah fondasi utama kami dalam menjaga keamanan dan kepercayaan klien."</p>
@@ -258,7 +258,7 @@ export default function CareersPage({ onNavigate }) {
     <div className="absolute -bottom-10 -right-10 w-48 h-48 bg-primary/5 rounded-full blur-3xl"></div>
     </div>
     <div className="lg:w-1/2">
-    <h2 className="font-display-lg text-headline-xl lg:text-headline-xl text-primary mb-8">Mengapa Bergabung dengan SGC?</h2>
+    <h2 className="font-display-lg text-headline-xl lg:text-headline-xl text-primary mb-8">Keuntungan Berkarir di SGC</h2>
     <div className="grid grid-cols-1 gap-8">
     <div className="flex gap-6">
     <span className="material-symbols-outlined text-secondary text-[32px]">workspace_premium</span>

@@ -50,7 +50,7 @@ export default function ServicesPage({ onNavigate }) {
     <div className="w-full lg:w-1/2 relative group">
     <div className="absolute -top-6 -left-6 w-32 h-32 bg-secondary/10 -z-10 rounded-full blur-2xl group-hover:bg-secondary/20 transition-all duration-700"></div>
     <div className="overflow-hidden rounded-2xl shadow-xl">
-    <img alt="Security Professional" className="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNh8gkyZaEyGL3wkw8uBsdENQFClfTqK5q9XJ3eNg6Gvq0ZxAbXWkZ6WQA-tsqS1DMCoLnHuYC1CWh7l2gHHDvsvJ65WvexHNx_u5glboX9FHJRd9t1e-UXqvEtIecCZvl-x7lK97J-ZTM0qzws2FUIwQrX4OsyWFcV7J-YPgoOoPvfB6mpJCC2jkp0-LiThbC9-8HugXw4Hgs_2KEvQJVxRuIlStRnEKeFumB0EOb1g_acVi_A6o"/>
+    <img alt="Security Professional" className="w-full aspect-[4/5] object-cover hover:scale-105 transition-transform duration-1000" src="/images/IMG-20260704-WA0587.jpg"/>
     </div>
     <div className="absolute -bottom-8 -right-8 bg-primary text-on-primary p-8 hidden lg:block max-w-[240px]">
     <span className="font-headline-xl text-headline-xl block mb-2">01</span>
@@ -59,7 +59,7 @@ export default function ServicesPage({ onNavigate }) {
     </div>
     <div className="w-full lg:w-1/2 pt-8">
     <span className="text-secondary font-label-md text-label-md tracking-[0.2em] uppercase mb-6 block">Premium Protection</span>
-    <h2 className="font-headline-xl text-headline-xl text-primary mb-8">Jasa Pengamanan (Security Services)</h2>
+    <h2 className="font-headline-xl text-headline-xl text-primary mb-8">Security Guarding Services (Security Services)</h2>
     <p className="font-body-lg text-body-lg text-on-surface-variant mb-12 leading-relaxed">
                             Kami menghadirkan personel terlatih yang dibekali dengan kedisiplinan militer dan etika pelayanan profesional untuk menjaga aset, personil, dan keberlangsungan bisnis Anda.
                         </p>
@@ -111,7 +111,7 @@ export default function ServicesPage({ onNavigate }) {
     <div className="flex flex-col-reverse lg:flex-row gap-16 items-center">
     <div className="w-full lg:w-1/2">
     <span className="text-secondary font-label-md text-label-md tracking-[0.2em] uppercase mb-6 block">Hygiene Excellence</span>
-    <h2 className="font-headline-xl text-headline-xl text-primary mb-8">Professional Cleaning Service</h2>
+    <h2 className="font-headline-xl text-headline-xl text-primary mb-8">Professional Professional Cleaning Service</h2>
     <p className="font-body-lg text-body-lg text-on-surface-variant mb-12 leading-relaxed">
                             Lingkungan yang bersih adalah kunci produktivitas. Kami menggunakan peralatan modern dan chemical ramah lingkungan untuk memastikan setiap sudut gedung Anda tetap higienis.
                         </p>
@@ -160,7 +160,7 @@ export default function ServicesPage({ onNavigate }) {
     <div className="w-full lg:w-1/2 relative">
     <div className="aspect-square bg-surface rounded-full absolute -z-10 w-[120%] -right-1/4 -top-1/4 opacity-50 blur-3xl"></div>
     <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-    <img alt="Cleaning Staff at Work" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAudw132N_-hZJuXRW2LxL-59lgCH_6gO_wGSMj2-xUtImRPAAbJ9CI0F-915NoOQVar96M99KkrJqbv5FAnHKlWLgI3nk3dLKn5rg06Be-8KHIsnn9Aw8gia3v1ftv642tBGZQH30-bn44fal4wIAllLoOboe9JzKuCPX4Fy-k_JrcIZ9RThHvQLcSkesUmr64UOzt2UictPZmTlVebVTb3SjAlrg6hNTmDn5QVKsn2OHrB8i3WEw"/>
+    <img alt="Cleaning Staff at Work" className="w-full h-full object-cover" src="/images/IMG-20260704-WA0588.jpg"/>
     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-12">
     <div className="flex items-center gap-4 text-white">
     <span className="font-display-lg text-[64px] font-bold text-secondary">99%</span>
@@ -180,7 +180,7 @@ export default function ServicesPage({ onNavigate }) {
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
     <div className="lg:col-span-5 order-2 lg:order-1">
     <div className="relative">
-    <img alt="Office Boy Service" className="w-full rounded-[40px] shadow-2xl relative z-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANz_Kyauv0pOKfj0ceCo1H3FWHyVRl-D7vnQjzgikVAko72X2d6LCWm4DwET5SuH-dGBPNqjzgjamScpVPmh8CKPogoI3rCiQvhTfVjVHAvssV9dzG58Y3R-qFHeTnvPoGvv5W-r0QrYBxvroITLWYzYlqsQs6j1b0-kv_amm4HFtdy9ygRYdY5hdhCTB5SJVObexJi1enrcf8Ft6nVlnVP6FyucHkhFGMfPCb_TRgaU1yxwD1rrM"/>
+    <img alt="Office Boy Service" className="w-full rounded-[40px] shadow-2xl relative z-10" src="/images/IMG-20260704-WA0589.jpg"/>
     <div className="absolute -bottom-10 -left-10 w-48 h-48 border-[16px] border-secondary-fixed rounded-full -z-0"></div>
     </div>
     </div>
@@ -245,6 +245,45 @@ export default function ServicesPage({ onNavigate }) {
     </div>
     </section>
     
+    
+    <section className="w-full py-24 bg-surface">
+      <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop">
+        <div className="text-center mb-16">
+          <span className="font-label-md text-secondary uppercase tracking-[0.2em]">FAQ</span>
+          <h2 className="font-headline-xl text-headline-xl text-primary mt-4">Pertanyaan Seputar Layanan Kami</h2>
+        </div>
+        <div className="max-w-3xl mx-auto space-y-4">
+          <details className="bg-surface-container-lowest border border-outline-variant/30 p-6 rounded-2xl group cursor-pointer">
+            <summary className="font-headline-md text-headline-md text-primary outline-none list-none [&::-webkit-details-marker]:hidden flex justify-between items-center">
+              Apakah personel SGC dilengkapi dengan jaminan asuransi ketenagakerjaan?
+              <span className="material-symbols-outlined text-secondary group-open:rotate-180 transition-transform">expand_more</span>
+            </summary>
+            <div className="mt-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Tentu saja. Seluruh personel PT Sentra Garuda Cakra Pratama (SGC) telah terdaftar dan dilindungi oleh BPJS Ketenagakerjaan serta jaminan kesehatan. Kami sangat menjunjung tinggi kesejahteraan anggota agar mereka dapat bertugas dengan fokus dan dedikasi penuh di lapangan.
+            </div>
+          </details>
+          <details className="bg-surface-container-lowest border border-outline-variant/30 p-6 rounded-2xl group cursor-pointer">
+            <summary className="font-headline-md text-headline-md text-primary outline-none list-none [&::-webkit-details-marker]:hidden flex justify-between items-center">
+              Bagaimana prosedur SGC dalam menangani kondisi darurat?
+              <span className="material-symbols-outlined text-secondary group-open:rotate-180 transition-transform">expand_more</span>
+            </summary>
+            <div className="mt-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              SGC memiliki protokol Quick Response Team (QRT). Saat terjadi kondisi darurat, komandan regu di lapangan akan langsung mengamankan area dan berkoordinasi dengan pusat komando SGC yang siaga 24/7. Kami juga menjalin kerja sama erat dengan instansi terkait (Polri, Damkar, Rumah Sakit) untuk penanganan eskalasi.
+            </div>
+          </details>
+          <details className="bg-surface-container-lowest border border-outline-variant/30 p-6 rounded-2xl group cursor-pointer">
+            <summary className="font-headline-md text-headline-md text-primary outline-none list-none [&::-webkit-details-marker]:hidden flex justify-between items-center">
+              Apakah SGC melayani proyek pengamanan di luar kota atau luar pulau?
+              <span className="material-symbols-outlined text-secondary group-open:rotate-180 transition-transform">expand_more</span>
+            </summary>
+            <div className="mt-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Ya, SGC telah dipercaya melayani klien di lebih dari 12 provinsi di Indonesia. Dengan struktur manajemen wilayah yang solid, kami siap memobilisasi personel dan sistem keamanan kami ke seluruh penjuru Nusantara, baik untuk area perkotaan maupun proyek terpencil (remote area).
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
     <section className="w-full py-24 bg-primary text-on-primary">
     <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop text-center">
     <h2 className="font-headline-xl text-headline-xl mb-6">Siap Mengamankan & Merawat Aset Anda?</h2>

@@ -4,14 +4,14 @@ export default function AboutPage({ onNavigate }) {
     
     <section className="relative w-full h-[70vh] flex items-end overflow-hidden">
     <div className="absolute inset-0 z-0">
-    <img alt="SGC Personnel Briefing" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiypTqtfAiu8StnGyX9Pyer0tdCEiV7KwaiusEzNKJv6ok9isGTG-tP6sxumWyxXHsGj0LXMJ2L--aRv3jnYmSZab_Lhymmh1UjJ29J7L-TuMHeM4m-isALF-RSQmlmrRhqCj0auH0BwwEUhsfaMuRrgOfcQZhZ4ev5T5scPSjlnbMvS6MFfuN_RvOHGEdC-QiebsYVPxJLOsmSZ7j1yfvSS7B44F_u2FzB5s9oIFJULoDEkienHU"/>
+    <img alt="SGC Personnel Briefing" className="w-full h-full object-cover" src="/images/file_0000000082e881f9ad336c6c744a4b76.png"/>
     <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent"></div>
     </div>
     <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop pb-20 w-full">
     <div className="max-w-4xl">
-    <span className="font-label-md text-label-md text-secondary-container tracking-[0.2em] uppercase mb-6 block">Tentang PT SGC</span>
+    <span className="font-label-md text-label-md text-secondary-container tracking-[0.2em] uppercase mb-6 block">Profil Perusahaan</span>
     <h1 className="font-display-lg text-display-lg-mobile lg:text-display-lg text-on-primary leading-tight">
-                        Profesionalisme yang Dibangun dari <br className="hidden lg:block"/> <span className="text-secondary-container italic">Disiplin dan Integritas.</span>
+                        Membangun Kepercayaan Lewat <br className="hidden lg:block"/> <span className="text-secondary-container italic">Disiplin dan Integritas.</span>
     </h1>
     </div>
     </div>
@@ -22,21 +22,21 @@ export default function AboutPage({ onNavigate }) {
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
     <div className="lg:col-span-5 flex flex-col gap-8">
     <div className="w-20 h-1 bg-secondary"></div>
-    <h2 className="font-headline-xl text-headline-xl text-primary">Standar Keamanan Nasional Dengan Pendekatan Modern.</h2>
+    <h2 className="font-headline-xl text-headline-xl text-primary">Standar Keamanan Tertinggi dengan Pendekatan Mutakhir.</h2>
     <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                            PT Sentra Garuda Cakra (SGC) hadir sebagai manifestasi dari kebutuhan akan layanan keamanan dan manajemen fasilitas yang tidak hanya bersifat reaktif, namun strategis dan terukur. Didirikan dengan landasan kedisiplinan militer yang diadaptasi untuk kebutuhan korporasi modern.
+                            PT Sentra Garuda Cakra Pratama (SGC) (SGC) hadir sebagai manifestasi dari kebutuhan akan layanan keamanan dan manajemen fasilitas yang tidak hanya bersifat reaktif, namun strategis dan terukur. Didirikan dengan landasan kedisiplinan militer yang diadaptasi untuk kebutuhan korporasi modern.
                         </p>
     </div>
     <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-8">
     <div className="p-8 bg-surface-container-low rounded-xl shadow-sm hover:shadow-md transition-shadow">
     <span className="material-symbols-outlined text-secondary mb-4 text-4xl">history_edu</span>
     <h3 className="font-headline-md text-headline-md mb-3">Sejarah Kami</h3>
-    <p className="font-body-md text-body-md text-on-surface-variant">Berawal dari konsorsium ahli keamanan nasional, kami berkembang menjadi mitra terpercaya bagi objek vital nasional dan industri strategis di seluruh Indonesia.</p>
+    <p className="font-body-md text-body-md text-on-surface-variant">Bermula dari sinergi pakar keamanan nasional, kami telah bertransformasi menjadi mitra strategis yang dipercaya untuk melindungi aset vital dan korporasi berskala besar di Indonesia.</p>
     </div>
     <div className="p-8 bg-primary text-on-primary rounded-xl shadow-xl">
     <span className="material-symbols-outlined text-secondary-container mb-4 text-4xl">verified_user</span>
     <h3 className="font-headline-md text-headline-md mb-3">Identitas SGC</h3>
-    <p className="font-body-md text-body-md opacity-80">Kami bukan sekadar penyedia jasa; kami adalah perisai. Setiap personel kami merupakan representasi dari dedikasi tanpa kompromi terhadap keselamatan aset klien.</p>
+    <p className="font-body-md text-body-md opacity-80">Lebih dari sekadar penyedia layanan, kami adalah garda terdepan Anda. Setiap personel SGC merupakan wujud nyata dari komitmen tanpa batas demi keamanan dan kenyamanan operasional klien.</p>
     </div>
     </div>
     </div>
@@ -48,11 +48,11 @@ export default function AboutPage({ onNavigate }) {
     <div className="space-y-12">
     <div>
     <div className="inline-block px-4 py-1 bg-secondary/10 text-secondary font-label-md text-label-md rounded-full mb-4">VISI KAMI</div>
-    <h3 className="font-display-lg text-[48px] leading-tight text-primary mb-6">Menjadi standar emas industri keamanan nasional.</h3>
+    <h3 className="font-display-lg text-[48px] leading-tight text-primary mb-6">Menjadi Pionir dan Standar Emas dalam Industri Layanan Keamanan Nasional.</h3>
     <p className="font-body-lg text-body-lg text-on-surface-variant">Kami berambisi untuk mendefinisikan ulang keamanan melalui integrasi teknologi canggih dan sumber daya manusia yang memiliki kompetensi di atas rata-rata industri.</p>
     </div>
     <div className="relative group overflow-hidden rounded-2xl h-80 shadow-2xl">
-    <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close up of a professional security control room with multiple monitors showing surveillance footage, high-tech command center environment with deep blue and black tones, soft glowing lights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqNRk-_CtrrhqwUsfXuyqsuA_96rFnb94lgjYRCmVf2zr3Um317cCPtveL_ViMhf9crHGJAPSIWux1BMT_3kKk9TdEM8MzmLxFyt6TFj2tJHic6TBcS7Rylcx8jjDGPsXVwN8pBHI_EETvqBJkrmkrd7k04iFNPqvwMSEf3EaDud02I55q2gHWrQFsFzjQYIfCdZ_Dl67hwBYipe62a2T-JR-dnIWLKhdpSjzQCbjjPPuaEumjnRI"/>
+    <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close up of a professional security control room with multiple monitors showing surveillance footage, high-tech command center environment with deep blue and black tones, soft glowing lights." src="/images/file_00000000b3d082119ea3aa0b5e47c328.png"/>
     <div className="absolute inset-0 bg-primary/20"></div>
     </div>
     </div>
@@ -158,7 +158,7 @@ export default function AboutPage({ onNavigate }) {
     </div>
     </div>
     <div className="relative">
-    <img className="w-full aspect-square object-cover rounded-3xl shadow-2xl" data-alt="A sharp, professionally dressed security officer in a modern tactical uniform standing confidently in front of a sleek corporate building glass facade, holding a digital tablet, daytime clear lighting, cinematic composition." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjtQorSKGgfmWCW3eebUFeENn2a4KxuHC1nbxwsGknrRrcjfPKKl3Iyr3jONBGwBGx6u5zlEs7DpSGoQMNuVLULMuBjNUMGpIL4VO1twYwWo_Oqzh6eBuSe1BLxaeMjNzLyiLkcTmUdhuJ8-3C70NW_-7vd1Z6mzcj74OzInItMZ-KW5Ijq6AvQd4efdYkXR8Uhc6PbV4MEf2tTZxmvcagIyjjQbWOmx-8_GeIvt15wX5eZmwaTvM"/>
+    <img className="w-full aspect-square object-cover rounded-3xl shadow-2xl" data-alt="A sharp, professionally dressed security officer in a modern tactical uniform standing confidently in front of a sleek corporate building glass facade, holding a digital tablet, daytime clear lighting, cinematic composition." src="/images/file_00000000c8f881faa75cb3b34b7ba0c3.png"/>
     <div className="absolute -bottom-10 -left-10 bg-secondary p-8 rounded-2xl hidden lg:block">
     <p className="font-display-lg text-on-secondary">100%</p>
     <p className="font-label-md text-on-secondary opacity-80 uppercase tracking-widest">Customer Satisfaction</p>
@@ -171,7 +171,7 @@ export default function AboutPage({ onNavigate }) {
     <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop">
     <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
     <div className="max-w-2xl">
-    <h2 className="font-headline-xl text-headline-xl text-primary mb-4">Proses Seleksi Personel</h2>
+    <h2 className="font-headline-xl text-headline-xl text-primary mb-4">Standar Ketat Rekrutmen SDM</h2>
     <p className="font-body-lg text-body-lg text-on-surface-variant">Kami memastikan hanya individu terbaik dengan mentalitas baja dan rekam jejak bersih yang bergabung dalam unit kami.</p>
     </div>
     <button className="bg-primary text-on-primary px-8 py-4 rounded-full font-label-md text-label-md hover:bg-secondary transition-all shadow-lg flex items-center gap-2" type="button" onClick={() => onNavigate("rekrutmen")}>
@@ -215,6 +215,37 @@ export default function AboutPage({ onNavigate }) {
     </div>
     </section>
     
+    
+    <section className="py-24 bg-surface-container-lowest">
+      <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop text-center mb-16">
+        <h2 className="font-headline-xl text-headline-xl text-primary mb-4">Jajaran Manajemen</h2>
+        <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Dipimpin oleh para profesional berpengalaman dari latar belakang keamanan strategis, manajemen SGC memastikan standar tertinggi dalam setiap operasi.</p>
+      </div>
+      <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="text-center group">
+          <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-surface shadow-xl">
+            <img src="/images/IMG-20260704-WA0596.jpg" alt="Direktur Utama" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+          </div>
+          <h4 className="font-headline-md text-headline-md text-primary">Nama Direktur Utama</h4>
+          <p className="font-label-md text-label-md text-secondary mt-1 uppercase tracking-wider">Direktur Utama</p>
+        </div>
+        <div className="text-center group">
+          <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-surface shadow-xl">
+            <img src="/images/IMG-20260704-WA0597.jpg" alt="Direktur Operasional" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+          </div>
+          <h4 className="font-headline-md text-headline-md text-primary">Nama Direktur Operasional</h4>
+          <p className="font-label-md text-label-md text-secondary mt-1 uppercase tracking-wider">Direktur Operasional</p>
+        </div>
+        <div className="text-center group">
+          <div className="w-48 h-48 mx-auto rounded-full overflow-hidden mb-6 border-4 border-surface shadow-xl">
+            <img src="/images/IMG-20260704-WA0601.jpg" alt="Manajer Pelatihan" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
+          </div>
+          <h4 className="font-headline-md text-headline-md text-primary">Nama Manajer Pelatihan</h4>
+          <p className="font-label-md text-label-md text-secondary mt-1 uppercase tracking-wider">Manajer Pelatihan & SDM</p>
+        </div>
+      </div>
+    </section>
+
     <section className="py-20 bg-surface">
     <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop">
     <div className="relative w-full rounded-[40px] overflow-hidden bg-secondary px-8 py-16 md:p-20 text-center">
