@@ -160,7 +160,7 @@ export default function ServicesPage({ onNavigate }) {
     <div className="w-full lg:w-1/2 relative">
     <div className="aspect-square bg-surface rounded-full absolute -z-10 w-[120%] -right-1/4 -top-1/4 opacity-50 blur-3xl"></div>
     <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-    <img alt="Cleaning Staff at Work" className="w-full h-full object-cover" src="/images/IMG-20260704-WA0580.jpg"/>
+    <img alt="Cleaning Staff at Work" className="w-full h-full object-cover" src="/images/file_00000000b3d082119ea3aa0b5e47c328.png"/>
     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-12">
     <div className="flex items-center gap-4 text-white">
     <span className="font-display-lg text-[64px] font-bold text-secondary">99%</span>

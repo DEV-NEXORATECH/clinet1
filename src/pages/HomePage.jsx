@@ -160,7 +160,7 @@ export default function HomePage({ onNavigate }) {
     
     <div className="bg-surface group rounded-[2rem] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500">
     <div className="h-64 overflow-hidden relative">
-    <img alt="Professional cleaning services" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="/images/IMG-20260704-WA0600.jpg"/>
+    <img alt="Professional cleaning services" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" src="/images/file_00000000b3d082119ea3aa0b5e47c328.png"/>
     </div>
     <div className="p-8 space-y-6">
     <h3 className="font-headline-md text-headline-md">Professional Cleaning Service</h3>
