@@ -255,29 +255,29 @@ export default function ServicesPage({ onNavigate }) {
         <div className="max-w-3xl mx-auto space-y-4">
           <details className="bg-surface-container-lowest border border-outline-variant/30 p-6 rounded-2xl group cursor-pointer">
             <summary className="font-headline-md text-headline-md text-primary outline-none list-none [&::-webkit-details-marker]:hidden flex justify-between items-center">
-              Apakah personel SGC dilengkapi dengan jaminan asuransi ketenagakerjaan?
+              Apakah personel Sentra Garuda Cakra Pratama dilengkapi dengan jaminan asuransi ketenagakerjaan?
               <span className="material-symbols-outlined text-secondary group-open:rotate-180 transition-transform">expand_more</span>
             </summary>
             <div className="mt-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
-              Tentu saja. Seluruh personel PT Sentra Garuda Cakra Pratama (SGC) telah terdaftar dan dilindungi oleh BPJS Ketenagakerjaan serta jaminan kesehatan. Kami sangat menjunjung tinggi kesejahteraan anggota agar mereka dapat bertugas dengan fokus dan dedikasi penuh di lapangan.
+              Tentu saja. Seluruh personel PT Sentra Garuda Cakra Pratama telah terdaftar dan dilindungi oleh BPJS Ketenagakerjaan serta jaminan kesehatan. Kami sangat menjunjung tinggi kesejahteraan anggota agar mereka dapat bertugas dengan fokus dan dedikasi penuh di lapangan.
             </div>
           </details>
           <details className="bg-surface-container-lowest border border-outline-variant/30 p-6 rounded-2xl group cursor-pointer">
             <summary className="font-headline-md text-headline-md text-primary outline-none list-none [&::-webkit-details-marker]:hidden flex justify-between items-center">
-              Bagaimana prosedur SGC dalam menangani kondisi darurat?
+              Bagaimana prosedur Sentra Garuda Cakra Pratama dalam menangani kondisi darurat?
               <span className="material-symbols-outlined text-secondary group-open:rotate-180 transition-transform">expand_more</span>
             </summary>
             <div className="mt-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
-              SGC memiliki protokol Quick Response Team (QRT). Saat terjadi kondisi darurat, komandan regu di lapangan akan langsung mengamankan area dan berkoordinasi dengan pusat komando SGC yang siaga 24/7. Kami juga menjalin kerja sama erat dengan instansi terkait (Polri, Damkar, Rumah Sakit) untuk penanganan eskalasi.
+              Sentra Garuda Cakra Pratama memiliki protokol Quick Response Team (QRT). Saat terjadi kondisi darurat, komandan regu di lapangan akan langsung mengamankan area dan berkoordinasi dengan pusat komando Sentra Garuda Cakra Pratama yang siaga 24/7. Kami juga menjalin kerja sama erat dengan instansi terkait (Polri, Damkar, Rumah Sakit) untuk penanganan eskalasi.
             </div>
           </details>
           <details className="bg-surface-container-lowest border border-outline-variant/30 p-6 rounded-2xl group cursor-pointer">
             <summary className="font-headline-md text-headline-md text-primary outline-none list-none [&::-webkit-details-marker]:hidden flex justify-between items-center">
-              Apakah SGC melayani proyek pengamanan di luar kota atau luar pulau?
+              Apakah Sentra Garuda Cakra Pratama melayani proyek pengamanan di luar kota atau luar pulau?
               <span className="material-symbols-outlined text-secondary group-open:rotate-180 transition-transform">expand_more</span>
             </summary>
             <div className="mt-4 font-body-md text-body-md text-on-surface-variant leading-relaxed">
-              Ya, SGC telah dipercaya melayani klien di lebih dari 12 provinsi di Indonesia. Dengan struktur manajemen wilayah yang solid, kami siap memobilisasi personel dan sistem keamanan kami ke seluruh penjuru Nusantara, baik untuk area perkotaan maupun proyek terpencil (remote area).
+              Ya, Sentra Garuda Cakra Pratama telah dipercaya melayani klien di lebih dari 12 provinsi di Indonesia. Dengan struktur manajemen wilayah yang solid, kami siap memobilisasi personel dan sistem keamanan kami ke seluruh penjuru Nusantara, baik untuk area perkotaan maupun proyek terpencil (remote area).
             </div>
           </details>
         </div>

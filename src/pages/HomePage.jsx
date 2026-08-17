@@ -20,7 +20,7 @@ export default function HomePage({ onNavigate }) {
                         Mitra Keamanan & Manajemen Fasilitas Terpercaya untuk Korporasi Anda
                     </h1>
     <p className="font-body-lg text-body-lg text-on-primary/80 max-w-xl">
-                        PT Sentra Garuda Cakra Pratama (SGC) memberikan solusi pengamanan terpadu dan pengelolaan fasilitas komprehensif. Kami menjamin ketenangan dan efisiensi operasional bisnis Anda melalui standar pelayanan kelas satu.
+                        PT Sentra Garuda Cakra Pratama memberikan solusi pengamanan terpadu dan pengelolaan fasilitas komprehensif. Kami menjamin ketenangan dan efisiensi operasional bisnis Anda melalui standar pelayanan kelas satu.
                     </p>
     <div className="flex flex-wrap gap-4 pt-4">
     <button className="bg-surface text-primary px-8 py-4 rounded-lg font-label-md text-label-md hover:scale-105 transition-all shadow-xl flex items-center gap-2" type="button" onClick={() => window.open('/company-profile.pdf', '_blank')}>
@@ -107,7 +107,7 @@ export default function HomePage({ onNavigate }) {
                         </h2>
     </div>
     <p className="font-body-lg text-body-lg text-on-surface-variant">
-                        Sebagai mitra strategis, PT Sentra Garuda Cakra Pratama (SGC) hadir untuk melindungi aset berharga dan mendukung kelancaran operasional perusahaan Anda. Kami memadukan tenaga profesional, teknologi pengawasan mutakhir, dan manajemen fasilitas yang akuntabel guna menciptakan lingkungan kerja yang produktif, aman, dan nyaman.
+                        Sebagai mitra strategis, PT Sentra Garuda Cakra Pratama hadir untuk melindungi aset berharga dan mendukung kelancaran operasional perusahaan Anda. Kami memadukan tenaga profesional, teknologi pengawasan mutakhir, dan manajemen fasilitas yang akuntabel guna menciptakan lingkungan kerja yang produktif, aman, dan nyaman.
                     </p>
     <ul className="space-y-4">
     <li className="flex gap-4 items-start">
@@ -136,7 +136,7 @@ export default function HomePage({ onNavigate }) {
     <h2 className="font-display-lg text-headline-xl lg:text-display-lg mt-4">Layanan Komprehensif untuk Kelancaran Operasional Bisnis</h2>
     </div>
     <p className="font-body-md text-on-surface-variant max-w-sm">
-                        Dari pengamanan tingkat tinggi hingga perawatan kebersihan gedung, SGC menghadirkan ekosistem layanan terpadu yang menjamin setiap aspek fasilitas Anda dikelola dengan standar kesempurnaan.
+                        Dari pengamanan tingkat tinggi hingga perawatan kebersihan gedung, Sentra Garuda Cakra Pratama menghadirkan ekosistem layanan terpadu yang menjamin setiap aspek fasilitas Anda dikelola dengan standar kesempurnaan.
                     </p>
     </div>
     <div className="grid md:grid-cols-3 gap-8">
@@ -312,7 +312,7 @@ export default function HomePage({ onNavigate }) {
     <section className="py-32 max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop">
         <div className="text-center mb-16">
             <span className="font-label-md text-secondary uppercase tracking-[0.2em]">Testimoni Klien</span>
-            <h2 className="font-display-lg text-headline-xl lg:text-display-lg mt-4">Apa Kata Mereka tentang SGC?</h2>
+            <h2 className="font-display-lg text-headline-xl lg:text-display-lg mt-4">Apa Kata Mereka tentang Sentra Garuda Cakra Pratama?</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-surface-container-lowest p-8 rounded-3xl shadow-lg border border-outline-variant/30 relative">
@@ -334,7 +334,7 @@ export default function HomePage({ onNavigate }) {
                 <div className="flex gap-1 text-secondary mb-6">
                     <span className="material-symbols-outlined text-sm">star</span><span className="material-symbols-outlined text-sm">star</span><span className="material-symbols-outlined text-sm">star</span><span className="material-symbols-outlined text-sm">star</span><span className="material-symbols-outlined text-sm">star</span>
                 </div>
-                <p className="font-body-md text-on-surface-variant italic mb-8">"Tim kebersihan dari SGC sangat detail dan proaktif. Lingkungan kantor kami kini selalu prima, yang sangat berdampak positif pada produktivitas seluruh karyawan."</p>
+                <p className="font-body-md text-on-surface-variant italic mb-8">"Tim kebersihan dari Sentra Garuda Cakra Pratama sangat detail dan proaktif. Lingkungan kantor kami kini selalu prima, yang sangat berdampak positif pada produktivitas seluruh karyawan."</p>
                 <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary font-bold">DR</div>
                     <div>
@@ -348,7 +348,7 @@ export default function HomePage({ onNavigate }) {
                 <div className="flex gap-1 text-secondary mb-6">
                     <span className="material-symbols-outlined text-sm">star</span><span className="material-symbols-outlined text-sm">star</span><span className="material-symbols-outlined text-sm">star</span><span className="material-symbols-outlined text-sm">star</span><span className="material-symbols-outlined text-sm">star</span>
                 </div>
-                <p className="font-body-md text-on-surface-variant italic mb-8">"Respon cepat (QRT) dari manajemen SGC saat terjadi kondisi darurat sangat mengesankan. Kami merasa benar-benar memiliki partner operasional yang bisa diandalkan 24 jam."</p>
+                <p className="font-body-md text-on-surface-variant italic mb-8">"Respon cepat (QRT) dari manajemen Sentra Garuda Cakra Pratama saat terjadi kondisi darurat sangat mengesankan. Kami merasa benar-benar memiliki partner operasional yang bisa diandalkan 24 jam."</p>
                 <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary font-bold">HS</div>
                     <div>
@@ -408,7 +408,7 @@ export default function HomePage({ onNavigate }) {
     <div className="max-w-3xl mx-auto space-y-10">
     <h2 className="font-display-lg text-headline-xl lg:text-display-lg text-on-primary">Tingkatkan Standar Keamanan & Profesionalisme Fasilitas Anda Hari Ini</h2>
     <p className="font-body-lg text-on-primary/70">
-                        Tim ahli SGC siap merancang solusi keamanan dan manajemen fasilitas berkelas yang disesuaikan dengan kebutuhan unik korporasi Anda.
+                        Tim ahli Sentra Garuda Cakra Pratama siap merancang solusi keamanan dan manajemen fasilitas berkelas yang disesuaikan dengan kebutuhan unik korporasi Anda.
                     </p>
     <div className="flex flex-col sm:flex-row justify-center gap-6">
     <button className="bg-secondary text-on-secondary px-10 py-5 rounded-xl font-label-md hover:scale-105 transition-all shadow-xl flex items-center justify-center gap-3" type="button" onClick={() => onNavigate("kontak")}>

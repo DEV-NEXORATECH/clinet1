@@ -4,7 +4,7 @@ export default function AboutPage({ onNavigate }) {
     
     <section className="relative w-full h-[70vh] flex items-end overflow-hidden">
     <div className="absolute inset-0 z-0">
-    <img alt="SGC Personnel Briefing" className="w-full h-full object-cover" src="/images/IMG-20260704-WA0597.jpg"/>
+    <img alt="Sentra Garuda Cakra Pratama Personnel Briefing" className="w-full h-full object-cover" src="/images/IMG-20260704-WA0597.jpg"/>
     <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent"></div>
     </div>
     <div className="relative z-10 max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop pb-20 w-full">
@@ -24,7 +24,7 @@ export default function AboutPage({ onNavigate }) {
     <div className="w-20 h-1 bg-secondary"></div>
     <h2 className="font-headline-xl text-headline-xl text-primary">Standar Keamanan Tertinggi dengan Pendekatan Mutakhir.</h2>
     <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-                            PT Sentra Garuda Cakra Pratama (SGC) (SGC) hadir sebagai manifestasi dari kebutuhan akan layanan keamanan dan manajemen fasilitas yang tidak hanya bersifat reaktif, namun strategis dan terukur. Didirikan dengan landasan kedisiplinan militer yang diadaptasi untuk kebutuhan korporasi modern.
+                            PT Sentra Garuda Cakra Pratama hadir sebagai manifestasi dari kebutuhan akan layanan keamanan dan manajemen fasilitas yang tidak hanya bersifat reaktif, namun strategis dan terukur. Didirikan dengan landasan kedisiplinan militer yang diadaptasi untuk kebutuhan korporasi modern.
                         </p>
     </div>
     <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -35,8 +35,8 @@ export default function AboutPage({ onNavigate }) {
     </div>
     <div className="p-8 bg-primary text-on-primary rounded-xl shadow-xl">
     <span className="material-symbols-outlined text-secondary-container mb-4 text-4xl">verified_user</span>
-    <h3 className="font-headline-md text-headline-md mb-3">Identitas SGC</h3>
-    <p className="font-body-md text-body-md opacity-80">Lebih dari sekadar penyedia layanan, kami adalah garda terdepan Anda. Setiap personel SGC merupakan wujud nyata dari komitmen tanpa batas demi keamanan dan kenyamanan operasional klien.</p>
+    <h3 className="font-headline-md text-headline-md mb-3">Identitas Sentra Garuda Cakra Pratama</h3>
+    <p className="font-body-md text-body-md opacity-80">Lebih dari sekadar penyedia layanan, kami adalah garda terdepan Anda. Setiap personel Sentra Garuda Cakra Pratama merupakan wujud nyata dari komitmen tanpa batas demi keamanan dan kenyamanan operasional klien.</p>
     </div>
     </div>
     </div>
@@ -88,7 +88,7 @@ export default function AboutPage({ onNavigate }) {
     <section className="py-24 bg-surface">
     <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop text-center mb-16">
     <h2 className="font-headline-xl text-headline-xl text-primary mb-4">Nilai-Nilai Utama (Core Values)</h2>
-    <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Filosofi yang tertanam dalam setiap tindakan dan keputusan setiap anggota SGC.</p>
+    <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Filosofi yang tertanam dalam setiap tindakan dan keputusan setiap anggota Sentra Garuda Cakra Pratama.</p>
     </div>
     <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
     
@@ -219,7 +219,7 @@ export default function AboutPage({ onNavigate }) {
     <section className="py-24 bg-surface-container-lowest">
       <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop text-center mb-16">
         <h2 className="font-headline-xl text-headline-xl text-primary mb-4">Jajaran Manajemen</h2>
-        <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Dipimpin oleh para profesional berpengalaman dari latar belakang keamanan strategis, manajemen SGC memastikan standar tertinggi dalam setiap operasi.</p>
+        <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Dipimpin oleh para profesional berpengalaman dari latar belakang keamanan strategis, manajemen Sentra Garuda Cakra Pratama memastikan standar tertinggi dalam setiap operasi.</p>
       </div>
       <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="text-center group">

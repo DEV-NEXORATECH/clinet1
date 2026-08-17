@@ -31,7 +31,7 @@ export default function ContactPage() {
               Kemitraan Strategis Dimulai Dengan <span className="text-secondary italic">Dialog.</span>
     </h1>
     <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-              Konsultasikan kebutuhan keamanan dan manajemen fasilitas Anda dengan tim ahli PT Sentra Garuda Cakra Pratama (SGC). Kami siap merancang solusi yang presisi untuk aset berharga Anda.
+              Konsultasikan kebutuhan keamanan dan manajemen fasilitas Anda dengan tim ahli PT Sentra Garuda Cakra Pratama. Kami siap merancang solusi yang presisi untuk aset berharga Anda.
             </p>
     </div>
     <div className="hidden lg:block">
@@ -113,7 +113,7 @@ export default function ContactPage() {
     <div>
     <p className="font-headline-md text-headline-md text-primary mb-1">Bandung, Jawa Barat</p>
     <p className="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-                    Gedung SGC Pratama, Lantai 4<br/>
+                    Gedung Sentra Garuda Cakra Pratama, Lantai 4<br/>
                     Jl. Asia Afrika No. 123, Braga, Kec. Sumur Bandung<br/>
                     Kota Bandung, Jawa Barat 40111
                   </p>

@@ -5,7 +5,7 @@ export default function Footer({ onNavigate }) {
     <footer className="w-full bg-tertiary py-20 text-on-tertiary">
       <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-12">
         <div>
-          <img alt="SGC Logo" className="mb-6 h-14 w-auto object-contain" src={logoUrl} />
+          <img alt="Sentra Garuda Cakra Pratama Logo" className="mb-6 h-14 w-auto object-contain" src={logoUrl} />
           <p className="font-body-md text-body-md opacity-70 leading-relaxed">
             Penyedia solusi keamanan dan fasilitas terintegrasi yang berkomitmen pada standar keunggulan, profesionalisme, dan kepercayaan nasional.
           </p>

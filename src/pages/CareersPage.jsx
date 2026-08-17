@@ -40,7 +40,7 @@ export default function CareersPage({ onNavigate }) {
     <div className="max-w-3xl">
     <span className="inline-block font-label-md text-label-md text-secondary-fixed-dim tracking-[0.2em] uppercase mb-6">Karier di Sentra Garuda Cakra</span>
     <h1 className="font-display-lg text-display-lg-mobile lg:text-display-lg text-on-tertiary leading-tight">
-                            Bergabung Bersama <span className="text-secondary-fixed-dim">SGC</span>
+                            Bergabung Bersama <span className="text-secondary-fixed-dim">Sentra Garuda Cakra Pratama</span>
     </h1>
     <p className="mt-8 font-body-lg text-body-lg text-on-tertiary/70 max-w-xl">
                             Kami mencari individu yang berintegritas, disiplin, dan memiliki semangat pelayanan tinggi untuk menjaga standar keunggulan operasional di seluruh Indonesia.
@@ -121,7 +121,7 @@ export default function CareersPage({ onNavigate }) {
     <p className="font-body-md text-body-md text-on-surface-variant mb-6">Tanyakan seputar rekrutmen kepada tim HR kami.</p>
     <button className="inline-flex items-center gap-2 text-secondary font-label-md hover:underline" type="button" onClick={() => onNavigate("kontak")}>
     <span className="material-symbols-outlined text-[20px]">chat</span>
-                                    Hubungi HR SGC
+                                    Hubungi HR Sentra Garuda Cakra Pratama
                                 </button>
     </div>
     <span className="material-symbols-outlined absolute -bottom-4 -right-4 text-[120px] text-primary/5 rotate-12">info</span>
@@ -222,7 +222,7 @@ export default function CareersPage({ onNavigate }) {
     </div>
     </div>
     <button className="w-full bg-primary text-on-primary py-6 rounded-xl font-headline-md text-headline-md hover:bg-secondary transition-all shadow-xl flex items-center justify-center gap-3" type="submit">
-                            Kirim Lamaran & Bergabung dengan Tim Elite SGC Pekerjaan
+                            Kirim Lamaran & Bergabung dengan Tim Elite Sentra Garuda Cakra Pratama Pekerjaan
                             <span className="material-symbols-outlined">send</span>
     </button>
     </form> : null}
@@ -233,7 +233,7 @@ export default function CareersPage({ onNavigate }) {
     </div>
     <h3 className="font-display-lg text-headline-xl text-primary mb-4">Lamaran Terkirim!</h3>
     <p className="font-body-lg text-body-lg text-on-surface-variant max-w-md mx-auto mb-10">
-                            Terima kasih telah mendaftar di PT Sentra Garuda Cakra Pratama (SGC). Tim rekrutmen kami akan meninjau berkas Anda dan menghubungi dalam 7 hari kerja jika lolos seleksi awal.
+                            Terima kasih telah mendaftar di PT Sentra Garuda Cakra Pratama. Tim rekrutmen kami akan meninjau berkas Anda dan menghubungi dalam 7 hari kerja jika lolos seleksi awal.
                         </p>
     <button className="px-10 py-4 border-2 border-secondary text-secondary font-label-md rounded-xl hover:bg-secondary hover:text-on-secondary transition-all" type="button" onClick={resetForm}>
                             Kembali ke Form
@@ -258,7 +258,7 @@ export default function CareersPage({ onNavigate }) {
     <div className="absolute -bottom-10 -right-10 w-48 h-48 bg-primary/5 rounded-full blur-3xl"></div>
     </div>
     <div className="lg:w-1/2">
-    <h2 className="font-display-lg text-headline-xl lg:text-headline-xl text-primary mb-8">Keuntungan Berkarir di SGC</h2>
+    <h2 className="font-display-lg text-headline-xl lg:text-headline-xl text-primary mb-8">Keuntungan Berkarir di Sentra Garuda Cakra Pratama</h2>
     <div className="grid grid-cols-1 gap-8">
     <div className="flex gap-6">
     <span className="material-symbols-outlined text-secondary text-[32px]">workspace_premium</span>

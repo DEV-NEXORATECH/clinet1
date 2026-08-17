@@ -80,7 +80,7 @@ function setStructuredData(page, canonicalUrl, imageUrl) {
   if (page === "blog") {
     graph.push({
       "@type": "Blog",
-      name: "Blog Security dan Facility Management PT SGC",
+      name: "Blog Security dan Facility Management PT Sentra Garuda Cakra Pratama",
       url: canonicalUrl,
       blogPost: blogPosts.map((post) => ({
         "@type": "BlogPosting",

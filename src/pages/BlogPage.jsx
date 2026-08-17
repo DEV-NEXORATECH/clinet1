@@ -66,7 +66,7 @@ export default function BlogPage({ onNavigate }) {
         <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-7">
             <span className="font-label-md text-label-md text-secondary uppercase tracking-[0.2em]">Strategi SEO</span>
-            <h2 className="font-headline-xl text-headline-xl text-primary mt-4 mb-5">Blog membantu calon klien menemukan SGC dari kebutuhan spesifik.</h2>
+            <h2 className="font-headline-xl text-headline-xl text-primary mt-4 mb-5">Blog membantu calon klien menemukan Sentra Garuda Cakra Pratama dari kebutuhan spesifik.</h2>
             <p className="font-body-lg text-body-lg text-on-surface-variant">
               Halaman artikel seperti ini bagus untuk menargetkan pencarian informasional, misalnya cara memilih vendor security, standar cleaning service kantor, atau manfaat monitoring patroli digital.
             </p>

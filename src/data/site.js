@@ -2,7 +2,7 @@ export const logoUrl = "/logo-transparent.png";
 
 export const whatsappNumber = "6282211227088";
 
-export const whatsappUrl = `https://wa.me/${whatsappNumber}?text=Halo%20SGC%2C%20saya%20ingin%20berkonsultasi%20mengenai%20layanan%20keamanan%20dan%20facility%20support.`;
+export const whatsappUrl = `https://wa.me/${whatsappNumber}?text=Halo%20Sentra%20Garuda%20Cakra%20Pratama%2C%20saya%20ingin%20berkonsultasi%20mengenai%20layanan%20keamanan%20dan%20facility%20support.`;
 
 export const navItems = [
   ["beranda", "Beranda"],
@@ -26,7 +26,7 @@ export const pageByPath = Object.fromEntries(Object.entries(routes).map(([page, 
 
 export const seoPages = {
   beranda: {
-    title: "Jasa Security, Cleaning Service & Office Support | PT SGC",
+    title: "Jasa Security, Cleaning Service & Office Support | PT Sentra Garuda Cakra Pratama",
     description:
       "PT Sentra Garuda Cakra Pratama menyediakan jasa security, cleaning service, office support, dan facility management profesional untuk kebutuhan bisnis.",
     keywords: "jasa security, jasa satpam, cleaning service, office support, facility management, Sentra Garuda Cakra"
@@ -44,7 +44,7 @@ export const seoPages = {
     keywords: "jasa pengamanan, security gedung, cleaning service kantor, office boy, building support"
   },
   blog: {
-    title: "Blog Security dan Facility Management | PT SGC",
+    title: "Blog Security dan Facility Management | PT Sentra Garuda Cakra Pratama",
     description:
       "Artikel SEO tentang jasa security, vendor satpam, cleaning service profesional, monitoring keamanan, dan facility management.",
     keywords: "blog security, vendor satpam, tips keamanan gedung, cleaning service profesional, facility management"
