@@ -197,7 +197,7 @@ export default function HomePage({ onNavigate }) {
     <div className="max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop">
     <div className="text-center mb-24 max-w-3xl mx-auto">
     <span className="font-label-md text-secondary uppercase tracking-[0.2em]">Keunggulan Kami</span>
-    <h2 className="font-display-lg text-headline-xl lg:text-display-lg mt-4">Alasan Korporasi Memilih Sentra Garuda Cakra</h2>
+    <h2 className="font-display-lg text-headline-xl lg:text-display-lg mt-4">Alasan Korporasi Memilih Sentra Garuda Cakra Pratama</h2>
     </div>
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
     <div className="flex gap-6">
@@ -312,7 +312,7 @@ export default function HomePage({ onNavigate }) {
     <section className="py-32 max-w-container-max mx-auto px-margin-mobile lg:px-margin-desktop">
         <div className="text-center mb-16">
             <span className="font-label-md text-secondary uppercase tracking-[0.2em]">Testimoni Klien</span>
-            <h2 className="font-display-lg text-headline-xl lg:text-display-lg mt-4">Apa Kata Mereka tentang Sentra Garuda Cakra Pratama?</h2>
+            <h2 className="font-display-lg text-headline-xl lg:text-display-lg mt-4">Apa Kata Mereka tentang Sentra Garuda Security?</h2>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-surface-container-lowest p-8 rounded-3xl shadow-lg border border-outline-variant/30 relative">
